@@ -5,7 +5,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('Informe um número que representa um mês (1-2): ', (n) => {
+rl.question('Informe um número que representa um mês (1-12): ', (n) => {
 
     let mes = Number(n);
 
